@@ -11,6 +11,7 @@ This bug occurs in multiple scenarios in Next.js where navigation falls back to 
 
 In all cases, instead of navigating to the intended page, the browser navigates to a `.txt` file and displays the RSC (React Server Component) payload code instead of the rendered page.
 
+
 ## Setup
 
 ```bash
