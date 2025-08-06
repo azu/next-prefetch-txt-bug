@@ -39,14 +39,13 @@ npm run start
 
 ### Router Methods (router.replace/router.push)
 
-1. Run `npm run build && npm run start`
-2. Open http://localhost:3000/router-replace-test in your browser
-3. Open Chrome DevTools
-4. Go to the Network tab
-5. Block the request URL `http://localhost:3000/test-page.txt` in DevTools
-6. Click the "Test router.replace('/test-page')" button
-7. Unexpectedly, the browser navigates to `/test-page.txt` instead of `/test-page`
-
+1. Run `npm run build && npm run start` 
+2. Open `http://localhost:3000` in your browser
+3. Open Chrome DevTools and go to the Network tab
+4. Block the request URL `http://localhost:3000/test-page.txt` in DevTools
+5. Reload the page
+6. Click the "Normal Page Link (with prefetch)" link
+7. Unexpectedly, the browser navigates to `/test-page.txt`
 :memo: This issue occurs in production mode.
 
 ## Expected Behavior
