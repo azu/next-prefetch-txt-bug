@@ -41,6 +41,7 @@ export default function Home() {
         <li>block `http://localhost:3000/test-page.txt` as request url</li>
         <li>click "Normal Page Link (with prefetch)" link</li>
       </ol>
+      <p><a href={"https://github.com/azu/next-prefetch-txt-bug"}>Source Code</a></p>
     </main>
   );
 }
