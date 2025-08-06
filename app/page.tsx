@@ -15,6 +15,20 @@ export default function Home() {
             Normal Page Link (with prefetch)
           </Link>
         </li>
+        <li style={{ marginBottom: '1rem' }}>
+          <Link href="/router-replace-test" style={{
+            color: "#0070f3",
+          }}>
+            Test router.replace()
+          </Link>
+        </li>
+        <li style={{ marginBottom: '1rem' }}>
+          <Link href="/replace-page" style={{
+            color: "#0070f3",
+          }}>
+            Auto Replace Page (5秒後に自動でrouter.replace)
+          </Link>
+        </li>
       </ul>
 
       <h2>Instructions:</h2>

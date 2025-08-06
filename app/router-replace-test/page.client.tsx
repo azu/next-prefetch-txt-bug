@@ -2,7 +2,7 @@
 
 import { useRouter, useSearchParams } from 'next/navigation';
 
-export default function RouterReplaceTest() {
+export  function RouterReplaceTest() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const currentCount = searchParams.get('count') || '0';
