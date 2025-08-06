@@ -26,7 +26,7 @@ export default function Home() {
           <Link href="/replace-page" style={{
             color: "#0070f3",
           }}>
-            Auto Replace Page (5秒後に自動でrouter.replace)
+            Auto Replace Page
           </Link>
         </li>
       </ul>
