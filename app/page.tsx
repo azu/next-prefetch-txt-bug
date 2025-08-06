@@ -38,7 +38,7 @@ export default function Home() {
         <li>open Chrome DevTools</li>
         <li>open network tab</li>
         <li>click on the link above</li>
-        <li>block `http://localhost:3000/test-page.txt=` as request url</li>
+        <li>block `http://localhost:3000/test-page.txt` as request url</li>
         <li>click "Normal Page Link (with prefetch)" link</li>
       </ol>
     </main>
